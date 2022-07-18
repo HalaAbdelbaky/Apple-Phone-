@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Apple Phone</title>
+	<link rel="stylesheet" href="phone.css">
+    </head>
+    <body>
+        <div class="container">
+           <header>
+            <a href="#"><img src="images/logo.png"  class="logo" alt="logo"></a>
+            <ul>
+                <li><a href="">Home</a></li>
+                <li><a href="">Products</a></li>
+                <li><a href="">News</a></li>
+                <li><a href="">About</a></li>
+                <li><a href="">Contact</a></li>
+            </ul>
+           </header>
+           <div class="line"></div>
+           <div class="content">
+            <div class="text">
+                <h2>iphone 13 pro max</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque voluptate atque temporibus, quis ex amet quae a fugit nulla totam eaque harum officiis</p>
+            <a href="#">All Products</a>
+            </div>
+            <div class="image">
+                <img  class="img" id="phone" src="images/1.png" alt="">
+            </div>
+           </div>
+           <div class="icons">
+            <img src="images/0.png"  onclick="phones(this.src) ;colors('#000')"   alt="">
+            <img   src="images/1.png"  onclick="phones(this.src) ;colors('#247ec8')"  alt="">
+            <img src="images/2.png" onclick="phones(this.src)  ;colors('#1e1e1e')"  alt="">
+            <img src="images/4.png" onclick="phones(this.src)  ;colors('#c82525')"   alt="">
+           </div>
+           <div class="colours">
+            <div id="color" class="one" data-color="red" data-title="iphone1" ></div>
+            <div id="color" class="two"  data-color="#c79b53"  data-title="iphone2"></div>
+            <div id="color" class="three"  data-color="#1e1e1e"   data-title="iphone3"></div>
+            <div  id="color"class="four"  data-color="#247ec8"  data-title="iphone4"></div>
+            <div id="color" class="five"  data-color="#000"  data-title="iphone5"></div>
+           </div>
+        </div>
+        <script src="phone.js"></script>
+    </body>
+    </html>
